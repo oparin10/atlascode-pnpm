@@ -1,0 +1,20 @@
+{
+  "name": "@atlascode/hefesto-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@atlascode/hefesto-typings": "1.0.0",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "firebase-tools": "^9.10.0",
+    "inquirer": "^8.0.0",
+    "typescript": "^4.2.4"
+  }
+}

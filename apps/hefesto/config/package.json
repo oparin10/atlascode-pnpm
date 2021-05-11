@@ -1,0 +1,17 @@
+{
+  "name": "@atlascode/hefesto-config",
+  "version": "1.0.0",
+  "description": "",
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "log-symbols": "^5.0.0",
+    "typescript": "^4.2.4"
+  }
+}

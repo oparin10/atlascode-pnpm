@@ -1,0 +1,17 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "declaration": true,
+    "moduleResolution": "node",
+    "declarationMap": true,
+    "target": "es5", 
+                                   
+    "module": "commonjs",                           
+    "outDir": "dist",                              
+    "strict": true,                            
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true,      
+  }
+
+}

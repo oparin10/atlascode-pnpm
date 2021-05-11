@@ -1,0 +1,67 @@
+body {
+  font-family: "Iceland" !important;
+}
+
+.MuiPopover-root {
+  z-index: 3000 !important;
+}
+
+.MuiTooltip-popper {
+  z-index: 3000 !important;
+}
+
+.MuiAlert-root {
+  z-index: 9999 !important;
+}
+
+.MuiDialog-root {
+  z-index: 9000 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  border-radius: 20px;
+  /* display: none; */
+}
+
+::-webkit-scrollbar-corner {
+  border-radius: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5d6d7c;
+  border-radius: 20px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5d6d7c;
+}
+
+.MuiAccordion-root.Mui-expanded {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.notificationMenu {
+  /* top: 40px !important; */
+  max-width: 200px;
+}
+
+.notificationMenu .MuiButtonBase-root {
+  white-space: pre-wrap !important;
+}
+
+@media (min-width: 1024px) {
+  .MuiTimeline-root {
+    max-width: 50%;
+  }
+}

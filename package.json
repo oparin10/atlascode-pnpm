@@ -1,0 +1,14 @@
+{
+  "name": "atlascode",
+  "version": "1.0.0",
+  "description": "atlascode monorepo",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:hefesto": "pnpm recursive test --filter '@atlascode/hefesto-*' ",
+    "watch:hefesto": "pnpm recursive watch --filter '@atlascode/hefesto-*"
+  },
+  "author": "",
+  "license": "ISC"
+}

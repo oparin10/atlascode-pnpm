@@ -1,0 +1,10 @@
+{
+  "name": "@atlascode/hefesto-typings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.d.ts",
+  "author": "",
+  "license": "ISC",
+  "typings": "index.d.ts"
+
+}
